@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tree stringigy work as expected 1`] = `
+"1
+├-2
+| ├-3
+| ├-4
+| | └-9
+| └-7
+└-5
+  └-6"
+`;
