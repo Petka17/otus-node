@@ -11,13 +11,13 @@ const stringifyTreeItems = (treeItems, levels = []) =>
   )
 
 const stringifyTreeItem = (treeItem, levels) => [
-  `${getLevelLines(levels)}-${treeItem.name}`,
+  `${getLevelLines(levels)}──${treeItem.name}`,
   ...(treeItem.items ? stringifyTreeItems(treeItem.items, levels) : []),
 ]
 
 const getLevelLines = (levels) =>
   levels
     .slice(0, -1)
-    .map((level) => (level === 1 ? '| ' : '  '))
+    .map((level) => (level === 1 ? '│  ' : '   '))
     .concat(levels.slice(-1).map((last) => (last === 1 ? '├' : '└')))
     .join('')

@@ -2,13 +2,16 @@
   "name": "tree",
   "version": "1.0.0",
   "description": "",
+  "author": "Petr Klimenko <petrklim@gmail.com>",
+  "license": "MIT",
+  "type": "module",
   "main": "index.js",
+  "bin": {
+    "tree": "./src/tree.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
-  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
