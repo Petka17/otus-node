@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Construct Folder Tree works 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "items": Array [
+        Object {
+          "name": "child11",
+        },
+      ],
+      "name": "child1/",
+    },
+    Object {
+      "name": "child2",
+    },
+    Object {
+      "items": Array [],
+      "name": "child3/",
+    },
+  ],
+  "name": "root",
+}
+`;

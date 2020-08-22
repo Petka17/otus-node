@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns a tree 1`] = `
+"root
+├──child1
+│  └──child11
+├──child2
+└──child3"
+`;

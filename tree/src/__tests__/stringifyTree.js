@@ -1,4 +1,4 @@
-import { stringifyTree } from '../index.js'
+import { stringifyTree } from '../stringifyTree.js'
 
 test('tree stringigy work as expected', () => {
   const tree = {
